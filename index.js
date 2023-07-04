@@ -28,9 +28,16 @@ app.use('/uploads',express.static('uploads')); //uploads image
 //app.use(express.static(__dirname+"./uploads/"));
 //DATABASE CONNECTION
 mongoose.connect(
-    "mongodb://localhost:27017/aquarina?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
-    { useNewUrlParser: true }
-);
+    'mongodb+srv://syamkrishnak:spR634lnq3yRh99B@cluster0.dmonp.mongodb.net/?retryWrites=true&w=majority',
+    { useNewUrlParser: true },
+    (error) => {
+      if (error) {
+        console.error('MongoDB connection error:', error);
+      } else {
+        console.log('MongoDB connected successfully!');
+      }
+    }
+  );
 
 // app.use(morgan('dev'))
 app.use(bodyParser.json())
