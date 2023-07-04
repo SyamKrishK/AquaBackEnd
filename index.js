@@ -28,7 +28,7 @@ app.use('/uploads',express.static('uploads')); //uploads image
 //app.use(express.static(__dirname+"./uploads/"));
 //DATABASE CONNECTION
 mongoose.connect(
-    'mongodb+srv://syamkrishnak:spR634lnq3yRh99B@cluster0.dmonp.mongodb.net/?retryWrites=true&w=majority',
+    'mongodb+srv://aqua:rTwRC4qIkcxw6d5U@aquacluster.ivuq3nv.mongodb.net/?authMechanism=DEFAULT',
     { useNewUrlParser: true },
     (error) => {
       if (error) {
