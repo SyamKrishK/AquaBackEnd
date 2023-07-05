@@ -28,7 +28,7 @@ app.use('/uploads',express.static('uploads')); //uploads image
 //app.use(express.static(__dirname+"./uploads/"));
 //DATABASE CONNECTION
 mongoose.connect(
-    'mongodb+srv://aqua:rTwRC4qIkcxw6d5U@aquacluster.ivuq3nv.mongodb.net/?authMechanism=DEFAULT',
+    'mongodb+srv://aqua:rTwRC4qIkcxw6d5U@aquacluster.ivuq3nv.mongodb.net/',
     { useNewUrlParser: true },
     (error) => {
       if (error) {
