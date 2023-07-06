@@ -1,4 +1,4 @@
 module.exports = {
-    razorIdKey : 'rzp_test_Si2SPfoE6JBi45',
-    razorIdSecret : 'wucVXJTcvKW7cgHgzKHLon7E'
+    razorIdKey : 'rzp_test_Jy20ozXxJvTH76',
+    razorIdSecret : 'axdgTbpgqXz9eYfEKsEwCVhm'
 }
