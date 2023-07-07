@@ -742,6 +742,6 @@ app.put("/rating/plants",async(req,res)=>{
 })
 
 //Server is Running this Port
-app.listen(3001,()=>{
-    console.log(`Server is up and running on http://localhost:3001`);
-})
+app.listen(process.env.PORT || 8080, () => {
+    console.log(`Server is up and running on http://localhost:${process.env.PORT || 8080}`);
+  });
